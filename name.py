@@ -78,6 +78,7 @@ def main():
     translated_text = translate_text(spoken_text, target_language=target_lang)
     if translated_text:
         speak_text(translated_text, lang=target_lang)
+# End of main()
 
 if __name__ == "__main__":
     main()
